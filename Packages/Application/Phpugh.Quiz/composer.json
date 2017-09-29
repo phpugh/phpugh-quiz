@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "phpugh/quiz",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpugh\\Quiz\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Phpugh.Quiz"
+        }
+    }
+}
