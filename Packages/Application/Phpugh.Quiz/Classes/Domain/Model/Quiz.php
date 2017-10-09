@@ -98,7 +98,8 @@ class Quiz
     /**
      * @return ArrayCollection<\Phpugh\Quiz\Domain\Model\Question>
      */
-    public function getQuestions() {
+    public function getQuestions()
+    {
         return $this->questions;
     }
 
@@ -106,7 +107,8 @@ class Quiz
      * @param Question $question
      * @return void
      */
-    public function addQuestion(Question $question) {
+    public function addQuestion(Question $question)
+    {
         $question->setQuiz($this);
         $this->questions->add($question);
     }

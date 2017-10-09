@@ -142,7 +142,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2017-07-22T12:49:21+00:00"
+            "time": "2017-07-22 12:49:21"
         },
         {
             "name": "doctrine/collections",
@@ -282,7 +282,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2017-07-22T08:35:55+00:00"
+            "time": "2017-07-22 08:35:55"
         },
         {
             "name": "doctrine/dbal",
@@ -353,7 +353,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-07-22T20:45:23+00:00"
+            "time": "2017-07-22 20:45:23"
         },
         {
             "name": "doctrine/inflector",
@@ -420,7 +420,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2017-07-22T12:18:28+00:00"
+            "time": "2017-07-22 12:18:28"
         },
         {
             "name": "doctrine/instantiator",
@@ -474,7 +474,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14T21:17:01+00:00"
+            "time": "2015-06-14 21:17:01"
         },
         {
             "name": "doctrine/lexer",
@@ -528,7 +528,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2017-07-24T09:37:08+00:00"
+            "time": "2017-07-24 09:37:08"
         },
         {
             "name": "doctrine/migrations",
@@ -597,7 +597,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2016-02-23T15:27:16+00:00"
+            "time": "2016-02-23 15:27:16"
         },
         {
             "name": "doctrine/orm",
@@ -605,12 +605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "36dc28d43eeacf37faa23cbb441ae226a1fb0ee9"
+                "reference": "24d95796bb27ee06f4687b03c58ecba057be15f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/36dc28d43eeacf37faa23cbb441ae226a1fb0ee9",
-                "reference": "36dc28d43eeacf37faa23cbb441ae226a1fb0ee9",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/24d95796bb27ee06f4687b03c58ecba057be15f9",
+                "reference": "24d95796bb27ee06f4687b03c58ecba057be15f9",
                 "shasum": ""
             },
             "require": {
@@ -673,7 +673,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2017-08-19T16:47:32+00:00"
+            "time": "2017-09-18 06:52:10"
         },
         {
             "name": "neos/cache",
@@ -721,7 +721,7 @@
             ],
             "description": "Neos Cache Framework",
             "homepage": "http://flow.neos.io",
-            "time": "2017-09-01T13:33:13+00:00"
+            "time": "2017-09-01 13:33:13"
         },
         {
             "name": "neos/composer-plugin",
@@ -754,7 +754,7 @@
                 "MIT"
             ],
             "description": "Flow Composer Plugin",
-            "time": "2016-05-05T07:03:52+00:00"
+            "time": "2016-05-05 07:03:52"
         },
         {
             "name": "neos/eel",
@@ -762,12 +762,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/eel.git",
-                "reference": "17f6ccab07696b5d8a0ea623f7bd7b7df676f0b0"
+                "reference": "6732f1dfc16255d9c016b45753402582b8a4256a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/eel/zipball/17f6ccab07696b5d8a0ea623f7bd7b7df676f0b0",
-                "reference": "17f6ccab07696b5d8a0ea623f7bd7b7df676f0b0",
+                "url": "https://api.github.com/repos/neos/eel/zipball/6732f1dfc16255d9c016b45753402582b8a4256a",
+                "reference": "6732f1dfc16255d9c016b45753402582b8a4256a",
                 "shasum": ""
             },
             "require": {
@@ -795,7 +795,7 @@
                 "MIT"
             ],
             "description": "The Embedded Expression Language (Eel) is a building block for creating Domain Specific Languages",
-            "time": "2017-08-30T08:05:52+00:00"
+            "time": "2017-09-21 10:33:53"
         },
         {
             "name": "neos/error-messages",
@@ -829,7 +829,7 @@
             ],
             "description": "Flow error messages",
             "homepage": "http://flow.neos.io",
-            "time": "2017-08-10T09:35:39+00:00"
+            "time": "2017-08-10 09:35:39"
         },
         {
             "name": "neos/flow",
@@ -837,12 +837,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/flow.git",
-                "reference": "9987a154b13656aacedcf12312b18c3636480aa6"
+                "reference": "8b47e38b2d430726c8c2debddb18156d8e136c39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/flow/zipball/9987a154b13656aacedcf12312b18c3636480aa6",
-                "reference": "9987a154b13656aacedcf12312b18c3636480aa6",
+                "url": "https://api.github.com/repos/neos/flow/zipball/8b47e38b2d430726c8c2debddb18156d8e136c39",
+                "reference": "8b47e38b2d430726c8c2debddb18156d8e136c39",
                 "shasum": ""
             },
             "require": {
@@ -905,7 +905,7 @@
             ],
             "description": "Flow Application Framework",
             "homepage": "http://flow.neos.io",
-            "time": "2017-09-06T22:30:37+00:00"
+            "time": "2017-09-21 20:03:12"
         },
         {
             "name": "neos/fluid-adaptor",
@@ -913,12 +913,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/fluidadaptor.git",
-                "reference": "97d579981fc071c83ce7c5a87f629db8245b7939"
+                "reference": "60e5eb5b2ef74ebed632c1488a67e3c288568715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/fluidadaptor/zipball/97d579981fc071c83ce7c5a87f629db8245b7939",
-                "reference": "97d579981fc071c83ce7c5a87f629db8245b7939",
+                "url": "https://api.github.com/repos/neos/fluidadaptor/zipball/60e5eb5b2ef74ebed632c1488a67e3c288568715",
+                "reference": "60e5eb5b2ef74ebed632c1488a67e3c288568715",
                 "shasum": ""
             },
             "require": {
@@ -939,7 +939,7 @@
                 "MIT"
             ],
             "description": "Fluid Templating Framework Adaptor",
-            "time": "2017-08-30T08:05:52+00:00"
+            "time": "2017-09-21 20:03:12"
         },
         {
             "name": "neos/utility-arrays",
@@ -947,12 +947,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-arrays.git",
-                "reference": "d65a3ecc83b3bde1a702f02cd82378c614ab2737"
+                "reference": "392de8e12f9329881a54fe6fdb85d5489fe8a9e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/utility-arrays/zipball/d65a3ecc83b3bde1a702f02cd82378c614ab2737",
-                "reference": "d65a3ecc83b3bde1a702f02cd82378c614ab2737",
+                "url": "https://api.github.com/repos/neos/utility-arrays/zipball/392de8e12f9329881a54fe6fdb85d5489fe8a9e8",
+                "reference": "392de8e12f9329881a54fe6fdb85d5489fe8a9e8",
                 "shasum": ""
             },
             "require": {
@@ -980,7 +980,7 @@
             ],
             "description": "Flow Array Utilities",
             "homepage": "http://flow.neos.io",
-            "time": "2017-04-14T14:26:05+00:00"
+            "time": "2017-10-04 13:09:52"
         },
         {
             "name": "neos/utility-files",
@@ -1021,7 +1021,7 @@
             ],
             "description": "Flow Files Utilities",
             "homepage": "http://flow.neos.io",
-            "time": "2017-07-19T17:24:02+00:00"
+            "time": "2017-07-19 17:24:02"
         },
         {
             "name": "neos/utility-lock",
@@ -1058,7 +1058,7 @@
             ],
             "description": "Flow Locking Implementation",
             "homepage": "http://flow.neos.io",
-            "time": "2017-07-23T19:21:27+00:00"
+            "time": "2017-07-23 19:21:27"
         },
         {
             "name": "neos/utility-mediatypes",
@@ -1099,7 +1099,7 @@
             ],
             "description": "Flow Media Types Utilities",
             "homepage": "http://flow.neos.io",
-            "time": "2017-07-08T06:32:08+00:00"
+            "time": "2017-07-08 06:32:08"
         },
         {
             "name": "neos/utility-objecthandling",
@@ -1140,7 +1140,7 @@
             ],
             "description": "Flow array/object property and type utilities",
             "homepage": "http://flow.neos.io",
-            "time": "2017-07-28T11:50:55+00:00"
+            "time": "2017-07-28 11:50:55"
         },
         {
             "name": "neos/utility-opcodecache",
@@ -1176,7 +1176,7 @@
             ],
             "description": "Flow Opcode Cache Utilities",
             "homepage": "http://flow.neos.io",
-            "time": "2017-07-16T15:41:49+00:00"
+            "time": "2017-07-16 15:41:49"
         },
         {
             "name": "neos/utility-pdo",
@@ -1212,7 +1212,7 @@
             ],
             "description": "Flow PDO Utilities",
             "homepage": "http://flow.neos.io",
-            "time": "2017-07-16T15:45:03+00:00"
+            "time": "2017-07-16 15:45:03"
         },
         {
             "name": "neos/utility-schema",
@@ -1253,7 +1253,7 @@
             ],
             "description": "Flow Schema Utilities",
             "homepage": "http://flow.neos.io",
-            "time": "2017-07-16T16:53:22+00:00"
+            "time": "2017-07-16 16:53:22"
         },
         {
             "name": "neos/utility-unicode",
@@ -1289,7 +1289,7 @@
             ],
             "description": "Flow Unicode Utilities",
             "homepage": "http://flow.neos.io",
-            "time": "2017-09-01T09:26:00+00:00"
+            "time": "2017-09-01 09:26:00"
         },
         {
             "name": "ocramius/package-versions",
@@ -1403,20 +1403,20 @@
                 "proxy pattern",
                 "service proxies"
             ],
-            "time": "2016-11-04T15:53:15+00:00"
+            "time": "2016-11-04 15:53:15"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.10",
+            "version": "v2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
+                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/634bae8e911eefa89c1abfbf1b66da679ac8f54d",
-                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5da4d3c796c275c55f057af5a643ae297d96b4d8",
+                "reference": "5da4d3c796c275c55f057af5a643ae297d96b4d8",
                 "shasum": ""
             },
             "require": {
@@ -1451,7 +1451,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13T16:27:32+00:00"
+            "time": "2017-09-27T21:40:39+00:00"
         },
         {
             "name": "psr/http-message",
@@ -1501,7 +1501,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "psr/log",
@@ -1548,7 +1548,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "ramsey/uuid",
@@ -1556,12 +1556,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "0ef23d1b10cf1bc576e9d865a7e9c47982c5715e"
+                "reference": "45cffe822057a09e05f7bd09ec5fb88eeecd2334"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/0ef23d1b10cf1bc576e9d865a7e9c47982c5715e",
-                "reference": "0ef23d1b10cf1bc576e9d865a7e9c47982c5715e",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/45cffe822057a09e05f7bd09ec5fb88eeecd2334",
+                "reference": "45cffe822057a09e05f7bd09ec5fb88eeecd2334",
                 "shasum": ""
             },
             "require": {
@@ -1630,7 +1630,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-08-04T13:39:04+00:00"
+            "time": "2017-09-22 20:46:04"
         },
         {
             "name": "symfony/console",
@@ -1638,12 +1638,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "a2e98682fd857fb3451c4b3a2aaf1958a836d1a9"
+                "reference": "f81549d2c5fdee8d711c9ab3c7e7362353ea5853"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/a2e98682fd857fb3451c4b3a2aaf1958a836d1a9",
-                "reference": "a2e98682fd857fb3451c4b3a2aaf1958a836d1a9",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f81549d2c5fdee8d711c9ab3c7e7362353ea5853",
+                "reference": "f81549d2c5fdee8d711c9ab3c7e7362353ea5853",
                 "shasum": ""
             },
             "require": {
@@ -1691,7 +1691,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-09-06T16:32:38+00:00"
+            "time": "2017-10-01 21:00:16"
         },
         {
             "name": "symfony/debug",
@@ -1748,7 +1748,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-30T07:22:48+00:00"
+            "time": "2016-07-30 07:22:48"
         },
         {
             "name": "symfony/dom-crawler",
@@ -1756,12 +1756,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "2d902344b9902a0189408ab5d9e84fa4b233fcfc"
+                "reference": "6433e25f338ff174dc9429283354faf06df05f67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/2d902344b9902a0189408ab5d9e84fa4b233fcfc",
-                "reference": "2d902344b9902a0189408ab5d9e84fa4b233fcfc",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/6433e25f338ff174dc9429283354faf06df05f67",
+                "reference": "6433e25f338ff174dc9429283354faf06df05f67",
                 "shasum": ""
             },
             "require": {
@@ -1804,7 +1804,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2017-08-15T13:30:53+00:00"
+            "time": "2017-10-01 21:00:16"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1863,7 +1863,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-06-14 15:44:48"
         },
         {
             "name": "symfony/yaml",
@@ -1871,12 +1871,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5"
+                "reference": "842fb6df22180244b4c65935ce1a88d324e5ff9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5",
-                "reference": "4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/842fb6df22180244b4c65935ce1a88d324e5ff9e",
+                "reference": "842fb6df22180244b4c65935ce1a88d324e5ff9e",
                 "shasum": ""
             },
             "require": {
@@ -1912,7 +1912,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01T20:52:29+00:00"
+            "time": "2017-10-05 14:38:30"
         },
         {
             "name": "typo3fluid/fluid",
@@ -1951,7 +1951,7 @@
                 "LGPL-3.0"
             ],
             "description": "The TYPO3 Fluid template rendering engine",
-            "time": "2017-01-20T21:49:18+00:00"
+            "time": "2017-01-20 21:49:18"
         },
         {
             "name": "zendframework/zend-code",
@@ -2012,20 +2012,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "071016ade1deee5b8346ec9d8d48935437746c37"
+                "reference": "969821ae236411f1540fa9a0267246ef07b02189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/071016ade1deee5b8346ec9d8d48935437746c37",
-                "reference": "071016ade1deee5b8346ec9d8d48935437746c37",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/969821ae236411f1540fa9a0267246ef07b02189",
+                "reference": "969821ae236411f1540fa9a0267246ef07b02189",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "athletic/athletic": "^0.1",
                 "container-interop/container-interop": "^1.1.0",
+                "phpbench/phpbench": "^0.13",
                 "phpunit/phpunit": "^6.0.7 || ^5.7.14",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
@@ -2058,22 +2058,22 @@
                 "events",
                 "zf2"
             ],
-            "time": "2017-07-11T19:19:12+00:00"
+            "time": "2017-10-09 10:07:30"
         }
     ],
     "packages-dev": [
         {
             "name": "mikey179/vfsStream",
-            "version": "dev-master",
+            "version": "v1.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikey179/vfsStream.git",
-                "reference": "a73cb946d51d78cd230450fa677fb37e36f6195d"
+                "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/a73cb946d51d78cd230450fa677fb37e36f6195d",
-                "reference": "a73cb946d51d78cd230450fa677fb37e36f6195d",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
+                "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "shasum": ""
             },
             "require": {
@@ -2106,7 +2106,7 @@
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2017-08-01T08:14:23+00:00"
+            "time": "2017-08-01T08:02:14+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2148,7 +2148,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2017-04-12T18:52:22+00:00"
+            "time": "2017-04-12 18:52:22"
         },
         {
             "name": "neos/behat",
@@ -2214,7 +2214,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Behat support package for Neos Flow",
-            "time": "2017-08-04T09:15:42+00:00"
+            "time": "2017-08-04 09:15:42"
         },
         {
             "name": "neos/buildessentials",
@@ -2245,7 +2245,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Neos Flow Build Toolchain Essentials",
-            "time": "2017-03-24T14:48:17+00:00"
+            "time": "2017-03-24 14:48:17"
         },
         {
             "name": "neos/kickstarter",
@@ -2285,7 +2285,7 @@
                 "MIT"
             ],
             "description": "A simple generator for controller and views.",
-            "time": "2017-08-18T12:10:48+00:00"
+            "time": "2017-08-18 12:10:48"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2293,12 +2293,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-                "reference": "a046af61c36e9162372f205de091a1cab7340f1c"
+                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/a046af61c36e9162372f205de091a1cab7340f1c",
-                "reference": "a046af61c36e9162372f205de091a1cab7340f1c",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
+                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
                 "shasum": ""
             },
             "require": {
@@ -2339,7 +2339,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2017-04-30T11:58:12+00:00"
+            "time": "2017-09-11T18:02:19+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -2494,7 +2494,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-09-04T11:05:03+00:00"
+            "time": "2017-09-04 11:05:03"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2605,7 +2605,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03T07:40:28+00:00"
+            "time": "2016-10-03 07:40:28"
         },
         {
             "name": "phpunit/php-text-template",
@@ -2695,7 +2695,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-03-07T15:42:04+00:00"
+            "time": "2017-03-07 15:42:04"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -2744,7 +2744,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-08-20T05:47:52+00:00"
+            "time": "2017-08-20 05:47:52"
         },
         {
             "name": "phpunit/phpunit",
@@ -2826,7 +2826,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-04-03T13:19:26+00:00"
+            "time": "2017-04-03 13:19:26"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2885,7 +2885,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2017-08-03T14:08:16+00:00"
+            "time": "2017-08-03 14:08:16"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -2930,7 +2930,7 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2017-03-04T10:23:55+00:00"
+            "time": "2017-03-04 10:23:55"
         },
         {
             "name": "sebastian/comparator",
@@ -3046,7 +3046,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2017-05-22T07:24:03+00:00"
+            "time": "2017-05-22 07:24:03"
         },
         {
             "name": "sebastian/environment",
@@ -3096,7 +3096,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-11-26T07:53:53+00:00"
+            "time": "2016-11-26 07:53:53"
         },
         {
             "name": "sebastian/exporter",
@@ -3163,7 +3163,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2017-04-03T13:19:02+00:00"
+            "time": "2017-04-03 13:19:02"
         },
         {
             "name": "sebastian/global-state",
@@ -3214,7 +3214,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2017-04-27T15:39:26+00:00"
+            "time": "2017-04-27 15:39:26"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -3261,7 +3261,7 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "time": "2017-08-03T12:35:26+00:00"
+            "time": "2017-08-03 12:35:26"
         },
         {
             "name": "sebastian/object-reflector",
@@ -3306,7 +3306,7 @@
             ],
             "description": "Allows reflection of object attributes, including inherited and non-public ones",
             "homepage": "https://github.com/sebastianbergmann/object-reflector/",
-            "time": "2017-03-29T09:07:27+00:00"
+            "time": "2017-03-29 09:07:27"
         },
         {
             "name": "sebastian/recursion-context",
@@ -3359,7 +3359,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2017-03-07T15:09:59+00:00"
+            "time": "2017-03-07 15:09:59"
         },
         {
             "name": "sebastian/resource-operations",
@@ -3401,7 +3401,7 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "time": "2016-10-03T07:43:09+00:00"
+            "time": "2016-10-03 07:43:09"
         },
         {
             "name": "sebastian/version",
@@ -3444,7 +3444,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2016-10-03T07:35:21+00:00"
+            "time": "2016-10-03 07:35:21"
         },
         {
             "name": "theseer/tokenizer",
@@ -3534,7 +3534,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2016-11-23T20:04:41+00:00"
+            "time": "2016-11-23 20:04:41"
         }
     ],
     "aliases": [],

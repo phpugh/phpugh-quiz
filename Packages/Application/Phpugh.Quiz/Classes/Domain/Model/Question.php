@@ -77,7 +77,8 @@ class Question
      * @param Answer $answer
      * @return void
      */
-    public function addAnswer(Answer $answer) {
+    public function addAnswer(Answer $answer)
+    {
         $answer->setQuestion($this);
         $this->answers->add($answer);
     }
@@ -85,7 +86,8 @@ class Question
     /**
      * @param ArrayCollection<Answer> $answers
      */
-    public function setAnswers(ArrayCollection $answers) {
+    public function setAnswers(ArrayCollection $answers)
+    {
         foreach ($this->answers as $answer) {
             if (!$answers->contains($answer)) {
                 $this->removeAnswer($answer);
@@ -105,5 +107,4 @@ class Question
     {
         $this->answers->remove($answer);
     }
-
 }

@@ -45,7 +45,8 @@ class Category
     /**
      * @return ArrayCollection<\Phpugh\Quiz\Domain\Model\Quiz>
      */
-    public function getQuizzes() {
+    public function getQuizzes()
+    {
         return $this->quizzes;
     }
 
@@ -53,7 +54,8 @@ class Category
      * @param Quiz $quiz
      * @return void
      */
-    public function addQuiz(Quiz $quiz) {
+    public function addQuiz(Quiz $quiz)
+    {
         $quiz->setCategory($this);
         $this->quizzes->add($quiz);
     }
