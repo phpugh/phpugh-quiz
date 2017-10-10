@@ -17,7 +17,9 @@
         "bin-dir": "bin"
     },
     "require": {
-        "neos/flow": "~4.2.0"
+        "neos/flow": "~4.2.0",
+
+        "neos/event-sourcing": "dev-master"
     },
     "require-dev": {
         "neos/kickstarter": "~4.2.0",

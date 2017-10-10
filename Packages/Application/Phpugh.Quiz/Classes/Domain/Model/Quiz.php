@@ -6,6 +6,7 @@ namespace Phpugh\Quiz\Domain\Model;
  */
 
 use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Neos\Flow\Annotations as Flow;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -40,9 +41,18 @@ class Quiz
      */
     protected $questions;
 
+    /**
+     * @var ArrayCollection<\Phpugh\Quiz\Domain\Model\Result>
+     * @ORM\OneToMany(mappedBy="quiz")
+     * @ORM\OrderBy({"correctAnswers" = "DESC"})
+     */
+    protected $results;
+
+
     public function __construct()
     {
         $this->questions = new ArrayCollection();
+        $this->results = new ArrayCollection();
     }
 
     /**
@@ -111,5 +121,31 @@ class Quiz
     {
         $question->setQuiz($this);
         $this->questions->add($question);
+    }
+
+    /**
+     * @param Result $result
+     * @return void
+     */
+    public function addResult(Result $result)
+    {
+        $result->setQuiz($this);
+        $this->results->add($result);
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->title;
+    }
+
+    /**
+     * @return Collection
+     */
+    public function getResults(): Collection
+    {
+        return $this->results;
     }
 }

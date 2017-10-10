@@ -3,7 +3,9 @@
     "type": "neos-package",
     "name": "phpugh/quiz",
     "require": {
-        "neos/flow": "*"
+        "neos/flow": "*",
+        "phpugh/quizeventsourced-command": "*",
+        "phpugh/quizeventsourced-query": "*"
     },
     "autoload": {
         "psr-4": {

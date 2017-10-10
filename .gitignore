@@ -7,8 +7,9 @@
 /Build/Resources
 /Configuration/
 /Data/
-/Packages/
-!/Packages/Application/Phpugh.Quiz/
+/Packages/Framework
+/Packages/Libraries
+/Packages/Application/Neos.*
 /Web/
 /bin/
 /Readme.txt

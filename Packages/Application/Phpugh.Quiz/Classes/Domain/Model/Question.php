@@ -33,6 +33,14 @@ class Question
     protected $answers;
 
     /**
+     * Question constructor.
+     */
+    public function __construct()
+    {
+        $this->answers = new ArrayCollection();
+    }
+
+    /**
      * @return Quiz
      */
     public function getQuiz()

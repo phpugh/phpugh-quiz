@@ -59,4 +59,9 @@ class Category
         $quiz->setCategory($this);
         $this->quizzes->add($quiz);
     }
+
+    public function __toString()
+    {
+        return $this->title;
+    }
 }
