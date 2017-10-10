@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "phpugh/quizeventsourced-query",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpugh\\QuizEventSoured\\Query\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Phpugh.QuizEventSourced.Query"
+        }
+    }
+}

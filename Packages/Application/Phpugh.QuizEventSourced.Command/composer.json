@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "phpugh/quizeventsourced-command",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpugh\\QuizEventSoured\\Command\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Phpugh.QuizEventSourced.Command"
+        }
+    }
+}
