@@ -3,8 +3,10 @@ namespace Phpugh\QuizEventSoured\Command\Model\Quiz;
 
 use Neos\Flow\Annotations as Flow;
 use Neos\EventSourcing\Event\EventPublisher;
+use Phpugh\QuizEventSoured\Command\Model\Quiz\Command\AddQuestionToQuiz;
 use Phpugh\QuizEventSoured\Command\Model\Quiz\Command\AddQuiz;
 use Phpugh\QuizEventSoured\Command\Model\Quiz\Command\QuizCommandInterface;
+use Phpugh\QuizEventSoured\Command\Model\Quiz\Event\QuestionWasAddedToQuiz;
 use Phpugh\QuizEventSoured\Command\Model\Quiz\Event\QuizWasAdded;
 
 /**
@@ -14,7 +16,6 @@ class QuizCommandHandler
 {
     /**
      * @Flow\Inject
-     * @var QuizRepository
      * @var EventPublisher
      */
     protected $eventPublisher;
@@ -34,6 +35,15 @@ class QuizCommandHandler
     public function handleAddQuiz(AddQuiz $command)
     {
         $event = new QuizWasAdded($command->getQuizIdentifier(), $command->getTitle());
+        $this->eventPublisher->publish($this->resolveStreamName($command), $event);
+    }
+
+    /**
+     * @param AddQuestionToQuiz $command
+     */
+    public function handleAddQuestionToQuiz(AddQuestionToQuiz $command)
+    {
+        $event = new QuestionWasAddedToQuiz($command->getQuizIdentifier(), $command->getQuestion());
         $this->eventPublisher->publish($this->resolveStreamName($command), $event);
     }
 }
