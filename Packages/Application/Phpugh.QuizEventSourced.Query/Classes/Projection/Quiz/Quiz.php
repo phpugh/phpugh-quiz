@@ -6,16 +6,15 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @Flow\Entity
- * @ORM\Table(name="phpugh_quiz")
+ * @ORM\Table(name="phpugh_quiz_projection_quiz")
  */
 class Quiz
 {
-
     /**
      * @ORM\Id
      * @var string
      */
-    protected $quizId;
+    protected $quizIdentifier;
 
     /**
      * @var string
@@ -28,13 +27,42 @@ class Quiz
     protected $createdAt;
 
     /**
-     * Quiz constructor.
-     * @param string $quizId
-     * @param $title
+     * @param string $quizIdentifier
      */
-    public function __construct(string $quizId, $title)
+    public function __construct(string $quizIdentifier)
     {
-        $this->quizId = $quizId;
+        $this->quizIdentifier = $quizIdentifier;
+    }
+
+    /**
+     * @return string
+     */
+    public function getTitle(): string
+    {
+        return $this->title;
+    }
+
+    /**
+     * @param string $title
+     */
+    public function setTitle(string $title)
+    {
         $this->title = $title;
+    }
+
+    /**
+     * @return \DateTime
+     */
+    public function getCreatedAt(): \DateTime
+    {
+        return $this->createdAt;
+    }
+
+    /**
+     * @param \DateTime $createdAt
+     */
+    public function setCreatedAt(\DateTime $createdAt)
+    {
+        $this->createdAt = $createdAt;
     }
 }

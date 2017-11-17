@@ -6,29 +6,32 @@ use Neos\Flow\Annotations as Flow;
 
 class QuizWasAdded implements EventInterface
 {
-
     /**
      * @var string
      */
-    protected $quizId;
+    protected $quizIdentifier;
 
     /**
      * @var string
      */
     protected $title;
 
-    public function __construct(string $quizId, string $title)
+    /**
+     * @param string $quizIdentifier
+     * @param string $title
+     */
+    public function __construct(string $quizIdentifier, string $title)
     {
-        $this->quizId = $quizId;
+        $this->quizIdentifier = $quizIdentifier;
         $this->title = $title;
     }
 
     /**
      * @return string
      */
-    public function getQuizId(): string
+    public function getQuizIdentifier(): string
     {
-        return $this->quizId;
+        return $this->quizIdentifier;
     }
 
     /**

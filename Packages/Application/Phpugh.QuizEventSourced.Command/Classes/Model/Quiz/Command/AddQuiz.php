@@ -4,14 +4,13 @@ namespace Phpugh\QuizEventSoured\Command\Model\Quiz\Command;
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\Utility\Algorithms;
 
-final class AddQuiz
+final class AddQuiz implements QuizCommandInterface
 {
 
     /**
-     * @Flow\Validate(type="NotEmpty")
      * @var string
      */
-    private $quizId;
+    private $quizIdentifier;
 
     /**
      * @Flow\Validate(type="NotEmpty")
@@ -25,16 +24,15 @@ final class AddQuiz
      */
     public function __construct(string $title)
     {
-        $this->quizId = Algorithms::generateUUID();
+        $this->quizIdentifier = Algorithms::generateUUID();
         $this->title = $title;
     }
-
-    /**
+    /*
      * @return string
      */
-    public function getQuizId(): string
+    public function getQuizIdentifier(): string
     {
-        return $this->quizId;
+        return $this->quizIdentifier;
     }
 
     /**
@@ -44,6 +42,4 @@ final class AddQuiz
     {
         return $this->title;
     }
-
-
 }

@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "phpugh/quizeventsourced-setup",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpugh\\QuizEventSourced\\Setup\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Phpugh.QuizEventSourced.Setup"
+        }
+    }
+}

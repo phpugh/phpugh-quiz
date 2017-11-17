@@ -1,6 +1,7 @@
 <?php
 namespace Phpugh\QuizEventSoured\Query\Projection\Quiz;
 
+use Neos\EventSourcing\EventStore\RawEvent;
 use Neos\Flow\Annotations as Flow;
 use Neos\EventSourcing\Projection\Doctrine\AbstractDoctrineProjector;
 use Phpugh\QuizEventSoured\Command\Model\Quiz\Event\QuizWasAdded;
@@ -12,10 +13,17 @@ class QuizProjector extends AbstractDoctrineProjector
 {
     /**
      * @param QuizWasAdded $event
+     * @param RawEvent $rawEvent
      */
-    public function whenQuizWasAdded(QuizWasAdded $event)
+    public function whenQuizWasAdded(QuizWasAdded $event, RawEvent $rawEvent)
     {
-        $quiz = new Quiz($event->getQuizId(), $event->getTitle());
+        $quiz = new Quiz($event->getQuizIdentifier());
+        $quiz->setTitle($event->getTitle());
+
+        $createdAt = new \DateTime();
+        $createdAt->setTimestamp($rawEvent->getRecordedAt()->getTimestamp());
+        $quiz->setCreatedAt($createdAt);
+
         $this->add($quiz);
     }
 }
