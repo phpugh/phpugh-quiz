@@ -1,8 +1,8 @@
 
 
-- Quiz-Package: Phpugh.Quiz
+### Quiz-Package: Phpugh.Quiz
 
-- Model:
+### Model:
   - Quiz (z.B. "Wie gut kennst du dich mit PHP aus?", Timer ein/ausschaltbar)
   - Question (z.B. "Wann ist PHP erschienen?") -> Quiz (Zeit und Punkte definierbar)
   - Answer (z.B. 1993, 1994, 2000) -> Question
@@ -12,7 +12,7 @@
   - Ranking (Userrankings, Quiz)
   - User
 
-- Annahmen:
+### Annahmen:
   - Quiz als zentrales AggregateRoot
   - Ein Quiz hat einen Status (z.B. Entwurf, Live, Archiv)
   - Man kann bei einem Quiz den Timer aktivieren. Die Punkte werden dann abhängig von der verstrichenen Zeit berechnet.
@@ -22,3 +22,7 @@
   - Es gibt immer eine Frage und mind. 2 Antwortmöglichkeiten
   - Ein Quiz hat mindestens ein Frage
   - Nach erfolgreicher Beantwortung des Quiz wird die durchschnittliche Punktezahl der anderen Spieler angezeigt
+  
+ ### Inspirationen: 
+
+Als Inspirationen dienen u.a. das [Zeit Quiz](http://quiz.zeit.de/) und das [heise Quiz](https://heise.de/-3839761).
